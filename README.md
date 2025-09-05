@@ -11,8 +11,10 @@ Repositório destinado a todos os conteúdos/códigos vistos na matéria de Mine
 
 
 ### Rodar ambiente python:
+```sh
 aluno@positivo-C4400:~$ pwd
 /home/aluno
+
 aluno@positivo-C4400:~$ ls
  AndroidStudioProjects   eclipse-workspace      Músicas             pt
  Arduino                 htdocs                 node_modules        Público
@@ -20,6 +22,7 @@ aluno@positivo-C4400:~$ ls
  Documentos              Imagens                package.json        snap
  Documents               modelio                package-lock.json   Vídeos
  Downloads               Modelos                Postman
+
 aluno@positivo-C4400:~$ source 
 .android/                     Modelos/
 AndroidStudioProjects/        .mozilla/
@@ -44,8 +47,9 @@ eclipse-workspace/            .r/
 .emulator_console_auth_token  R/
 .gradle/                      .Rhistory
 .gtkrc-2.0                    .rpmdb/
+
 aluno@positivo-C4400:~$ source orange-venv/bin/activate
-(orange-venv) aluno@positivo-C4400:~$ 
+
 (orange-venv) aluno@positivo-C4400:~$ pip freeze
 anyio==4.10.0
 AnyQt==0.2.1
@@ -147,7 +151,10 @@ wcwidth==0.2.13
 xgboost==2.0.3
 xlrd==2.0.2
 xlsxwriter==3.2.5
+
 (orange-venv) aluno@positivo-C4400:~$ pip freeze > orange-venv.txt
+
 (orange-venv) aluno@positivo-C4400:~$ orange-canvas
+```
 
 Nao supervisionado: dados sem rotulos, sem variavel alvo
