@@ -155,6 +155,18 @@ xlsxwriter==3.2.5
 (orange-venv) aluno@positivo-C4400:~$ pip freeze > orange-venv.txt
 
 (orange-venv) aluno@positivo-C4400:~$ orange-canvas
+
+
+
+
+-------
+
+aluno@positivo-C4400:~$ source orange-venv/bin/activate
+
+(orange-venv) aluno@positivo-C4400:~$ orange-canvas 
+
+
+
 ```
 
 Nao supervisionado: dados sem rotulos, sem variavel alvo
